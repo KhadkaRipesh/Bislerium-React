@@ -1,0 +1,87 @@
+.top_container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -40px;
+}
+.others {
+  display: flex;
+  margin: 20px 27px 0 auto;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  margin-left: 14px;
+  font-size: 25px;
+}
+.notification,
+.profile {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border: 1px solid #e7e7e9;
+  display: grid;
+  align-items: center;
+}
+/* .text {
+    font-size: 10px;
+    font-weight: bold;
+  } */
+.title {
+  margin: 20px;
+}
+.dropdown-menu {
+  position: absolute;
+}
+.li_items {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  width: auto;
+  /* border: 1px solid black; */
+  align-items: center;
+  height: 25px;
+  padding: 0.5rem 0.5rem;
+  font-size: 18px;
+  color: #2a2a2a;
+  /* padding-left: 14px; */
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 4px;
+  /* padding: .5rem 1.5rem; */
+  width: 100%;
+}
+.personal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+.line {
+  border-top: 1px solid #e9ecef;
+  height: 0;
+  margin-left: -5px;
+  overflow: hidden;
+}
+.view {
+  color: #008cba;
+}
+.profile .icon:hover,
+.notification .icon:hover {
+  cursor: pointer;
+}
+.notification_dropdown {
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: #212529;
+  background-color: #fff;
+  width: 360px;
+  border-radius: 6px;
+  max-height: 383px;
+  overflow-y: scroll;
+  margin-top: 203px;
+  margin-left: -295px;
+}
